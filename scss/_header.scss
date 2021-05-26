@@ -14,11 +14,11 @@
         font-size: 50px;
     }
 
-    &__nav-list {
+    &-nav__list {
         list-style: none;
         display: flex;
 
-        &__item {
+        &-item {
             @include ralewaybold();
             font-size: 16px;
             text-transform: uppercase;
@@ -43,7 +43,7 @@
             }
         }
 
-        &__link {
+        &-link {
             text-decoration: none;
             color: inherit;
 
