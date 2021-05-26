@@ -1,0 +1,24 @@
+.about {
+    background: #00c3c3;
+    margin-top: -90px;
+    color: #ffffff;
+
+    .container {
+        @include flex-between();
+        padding: 20px 0;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__title {
+       @include ralewaybold();
+        font-size: 90px;
+    }
+
+    &__text {
+        @include ralewaylight();
+        font-size: 17px;
+    }
+}
